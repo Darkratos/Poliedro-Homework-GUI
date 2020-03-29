@@ -115,17 +115,17 @@ void gui_renderer::draw_login_form( )
 		}
 
 		ImGui::SetCursorPosX( ImGui::GetWindowWidth( ) / 2 - 100 );
-		ImGui::SetCursorPosY( 150 );
+		ImGui::SetCursorPosY( 160 );
 
 		ImGui::SetNextItemWidth( 200 );
 		CenterInputTextWithHint( "###login", "Login", this->username, 128 );
 
-		ImGui::SetCursorPosY( 195 );
+		ImGui::SetCursorPosY( 205 );
 		ImGui::SetCursorPosX( ImGui::GetWindowWidth( ) / 2 - 100 );
 		ImGui::SetNextItemWidth( 200 );
 		CenterInputTextWithHint( "###password", "Senha", this->password, 128 );
 
-		ImGui::SetCursorPosY( 285 );
+		ImGui::SetCursorPosY( 265 );
 		ImGui::SetCursorPosX( ImGui::GetWindowWidth( ) / 2 - 100 );
 		
 		if ( ImGui::Button( "Login", ImVec2( 200, 0 ) ) )
